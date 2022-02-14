@@ -1,0 +1,19 @@
+{
+  "name": "profileinfoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "t1": "node ./test/securePropsForProfile.js",
+    "t2": "node ./test/getAllProfiles.js",
+    "t3": "node ./test/_getProfileByName.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zowe/cli": "7.0.0-next.202202112312",
+    "@zowe/imperative": "5.0.0-next.202202111730",
+    "keytar": "7.8.0"
+  }
+}
